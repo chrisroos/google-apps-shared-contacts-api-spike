@@ -1,10 +1,5 @@
 #! /usr/bin/env ruby
 
-# README
-# ./google-shared-contacts.rb auth 'YOUR-EMAIL-ADDRESS' 'YOUR-PASSWORD' > google-token
-# ./google-shared-contacts.rb create `cat google-token` 'YOUR-DOMAIN' 'contact.xml'
-# ./google-shared-contacts.rb list `cat google-token` 'YOUR-DOMAIN'
-
 require 'cgi'
 
 def usage_message(signature)
