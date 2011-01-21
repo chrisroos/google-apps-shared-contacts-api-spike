@@ -4,6 +4,10 @@ The [Google Apps Shared Contacts API Guide](http://code.google.com/googleapps/do
 
 The contact.xml document is taken straight from that API guide.
 
+## Conclusion
+
+I used this test script to create multiple contacts via the API.  I checked after around 48 hours and the contacts weren't available in GMail autocomplete or the Contact editor so I guess it really isn't available with a standard GAFYD account...
+
 ## Usage
 
     $ ./google-shared-contacts.rb auth 'YOUR-EMAIL-ADDRESS' 'YOUR-PASSWORD' > google-token
